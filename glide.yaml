@@ -1,0 +1,16 @@
+package: .
+import:
+- package: github.com/gin-gonic/gin
+  version: ^1.1.4
+- package: github.com/go-resty/resty
+  version: ^0.11.0
+- package: github.com/inconshreveable/log15
+  version: master
+- package: github.com/garyburd/redigo
+  version: ^1.0.0
+  subpackages:
+  - redis
+- package: github.com/gin-gonic/contrib
+  subpackages:
+  - gzip
+- package: gopkg.in/mgo.v2

@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "remotePath": "",
+      "port": 4000,
+      "host": "127.0.0.1",
+      "program": "${workspaceRoot}",
+      "env": {"EBAOCLOUD_CONF":"${workspaceRoot}"},
+      "args": [],
+      "showLog": true
+    }
+  ]
+}
