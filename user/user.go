@@ -25,7 +25,7 @@ func Test(c *gin.Context) {
 		return
 	}
 	log.Info("print", "data", data)
-	c.JSON(200, data)
+	c.String(200, "%s", data)
 }
 
 //Test2 test
